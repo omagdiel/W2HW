@@ -1,0 +1,9 @@
+<%=image_tag @posts.image%>
+
+<h1><%=@posts.title%></h1>
+
+<em><%=@posts.subtitle%></em>
+
+<p><%= @posts.body%></p>
+
+<%= link_to "Back", posts_path%>
