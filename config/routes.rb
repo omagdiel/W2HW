@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+
+  get 'pages/about'
+
+  get 'pages/contact'
+
+  get 'pages/posts'
+
+  get 'pages/titles'
+
+  get 'pages/search'
+
   devise_for :users
   devise_for :views
 
